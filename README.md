@@ -2,7 +2,7 @@
 Minimalistic Python version of the Linux VERBS API for Infiniband
 
 Installation:
-```
+```bash
 cython ibverbs.pyx
 gcc -c ibverbs.c -o ibverbs.o
 gcc -shared ibverbs.o -o ibverbs.so -lpython3.6 -libverbs
@@ -10,7 +10,7 @@ cp -iv ibverbs.so /usr/lib/python3.6/site-packages/ibverbs.so
 ```
 
 Usage:
-```
+```python
 from ibverbs import IBDeviceList, \
   IBAccessFlags as acc
 import numpy as np
