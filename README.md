@@ -2,7 +2,7 @@
 Minimalistic Python version of the Linux VERBS API for Infiniband
 
 Installation:
-```bash
+```sh
 cython ibverbs.pyx
 gcc -c ibverbs.c -o ibverbs.o
 gcc -shared ibverbs.o -o ibverbs.so -lpython3.6 -libverbs
