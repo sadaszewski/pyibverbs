@@ -1,6 +1,8 @@
 # pyibverbs
 Minimalistic Python version of the Linux VERBS API for Infiniband
 
+For official release note and discussion please visit: https://adared.ch/pyibverbs-minimalistic-python-api-for-linux-verbs/
+
 Installation:
 ```sh
 cython ibverbs.pyx
